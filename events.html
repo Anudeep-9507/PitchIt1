@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>events</title>
+    <link rel="stylesheet" href="events.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    <div class="heading">
+        <header class="d-flex justify-content-center py-3 headcontents">
+          <img src="./img_soruces/PitchIt_logo.svg" height="56x" alt="PitchItLogo" class="PitchIt_logo">
+          <h1 id="mainlogo">PitchIt</h1>
+          <ul class="nav nav-pills">
+    
+            <li>
+    
+              <form class="form">
+                <button>
+                  <svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg" role="img"
+                    aria-labelledby="search" class="searchButton">
+                    <path d="M7.667 12.667A5.333 5.333 0 107.667 2a5.333 5.333 0 000 10.667zM14.334 14l-2.9-2.9"
+                      stroke="currentColor" stroke-width="1.333" stroke-linecap="round" stroke-linejoin="round"></path>
+                  </svg>
+                </button>
+                <input class="input" placeholder="Search" required="" type="text">
+                <button class="reset" type="reset">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path>
+                  </svg>
+                </button>
+              </form>
+            </li>
+    
+            <li class="nav-item mt-1"><a href="./mainpage.html"><svg width="30px" height="30px" viewBox="0 0 1024 1024" class="icon homelogo"
+                version="1.1" xmlns="http://www.w3.org/2000/svg" fill="#000000">
+    
+                <g id="SVGRepo_bgCarrier" stroke-width="0" />
+    
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" />
+    
+                <g id="SVGRepo_iconCarrier">
+    
+                  <path
+                    d="M981.4 502.3c-9.1 0-18.3-2.9-26-8.9L539 171.7c-15.3-11.8-36.7-11.8-52 0L70.7 493.4c-18.6 14.4-45.4 10.9-59.7-7.7-14.4-18.6-11-45.4 7.7-59.7L435 104.3c46-35.5 110.2-35.5 156.1 0L1007.5 426c18.6 14.4 22 41.1 7.7 59.7-8.5 10.9-21.1 16.6-33.8 16.6z"
+                    fill="#667dff" />
+    
+                  <path
+                    d="M810.4 981.3H215.7c-70.8 0-128.4-57.6-128.4-128.4V534.2c0-23.5 19.1-42.6 42.6-42.6s42.6 19.1 42.6 42.6v318.7c0 23.8 19.4 43.2 43.2 43.2h594.8c23.8 0 43.2-19.4 43.2-43.2V534.2c0-23.5 19.1-42.6 42.6-42.6s42.6 19.1 42.6 42.6v318.7c-0.1 70.8-57.7 128.4-128.5 128.4z"
+                    fill="#2e8cd1" />
+    
+                </g>
+    
+              </svg></a>  </li>
+            <div class="headtxt home">
+              <li class="nav-item head"><a href="#" class="nav-link">Events</a></li>
+            </div>
+            <div class="headtxt messages">
+              <li class="nav-item head"><a href="#" class="nav-link">Messages</a></li>
+            </div>
+            <div class="headtxt explore">
+              <li class="nav-item head"><a href="#" class="nav-link">Explore</a></li>
+            </div>
+            <div class="headtxt notifications">
+              <li class="nav-item head"><a href="#" class="nav-link">Notifications</a></li>
+            </div>
+            <div class="headtxt mystartup">
+              <li class="nav-item head"><a href="./myteam.html" class="nav-link">My StartUp</a></li>
+    
+            </div>
+          </ul>
+        </header>
+      </div>
+      <div class="d-flex flex-column flex-shrink-0 p-3 bg-body-tertiary sidebar" style="width: 330px;  height: 510px;">
+        <a href="./myteam.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+          <!-- <svg class="bi pe-none me-2" width="40" height="32" ><use xlink:href="#bootstrap"></use></svg> -->
+          <img src="./img_soruces/profile.svg" height="24px" class="sideicons profile" alt="profile">
+          <span class="fs-4 side"> My Profile</span>
+        </a>
+        <hr>
+        <ul class="nav  flex-column mb-auto">
+          <li>
+            <a href="./loading.html" class="nav-link link-body-emphasis">
+              <svg class="bi pe-none me-2" width="16" height="16">
+                <use xlink:href="#grid"></use>
+              </svg>
+              <img src="./img_soruces/play.png" height="24px" class="sideicons" alt="">
+              <span>Stories</span>
+            </a>
+          </li>
+          <li>
+            <a href="./loading.html" class="nav-link link-body-emphasis">
+              <svg class="bi pe-none me-2" width="16" height="16">
+                <use xlink:href="#speedometer2"></use>
+              </svg>
+              <img src="./img_soruces/network.svg" height="24px" class="sideicons" alt="network">
+              <span>My Network</span>
+            </a>
+          </li>
+          <li>
+            <a href="./loading.html" class="nav-link link-body-emphasis">
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-link-45deg collabicon" viewBox="0 0 16 16">
+                <path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1 1 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4 4 0 0 1-.128-1.287z"/>
+                <path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243z"/>
+              </svg>
+              <span>My collabs</span>
+            </a>
+          </li>
+          <li>
+            <a href="./loading.html" class="nav-link link-body-emphasis">
+              <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-person-fill-gear mentoricon" viewBox="0 0 16 16">
+                <path d="M11 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0m-9 8c0 1 1 1 1 1h5.256A4.5 4.5 0 0 1 8 12.5a4.5 4.5 0 0 1 1.544-3.393Q8.844 9.002 8 9c-5 0-6 3-6 4m9.886-3.54c.18-.613 1.048-.613 1.229 0l.043.148a.64.64 0 0 0 .921.382l.136-.074c.561-.306 1.175.308.87.869l-.075.136a.64.64 0 0 0 .382.92l.149.045c.612.18.612 1.048 0 1.229l-.15.043a.64.64 0 0 0-.38.921l.074.136c.305.561-.309 1.175-.87.87l-.136-.075a.64.64 0 0 0-.92.382l-.045.149c-.18.612-1.048.612-1.229 0l-.043-.15a.64.64 0 0 0-.921-.38l-.136.074c-.561.305-1.175-.309-.87-.87l.075-.136a.64.64 0 0 0-.382-.92l-.148-.045c-.613-.18-.613-1.048 0-1.229l.148-.043a.64.64 0 0 0 .382-.921l-.074-.136c-.306-.561.308-1.175.869-.87l.136.075a.64.64 0 0 0 .92-.382zM14 12.5a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0"/>
+              </svg>
+             
+              <span>Mentorship</span>
+            </a>
+          </li>
+          <li>
+            <a href="./loading.html" class="nav-link link-body-emphasis">
+              <svg class="bi pe-none me-2" width="16" height="16">
+                <use xlink:href="#speedometer2"></use>
+              </svg>
+              <img src="./img_soruces/chart.png" height="24px" class="sideicons" alt="">
+              <span>Dashboard</span>
+            </a>
+          </li>
+          <li>
+            <a href="/loading.html" class="nav-link link-body-emphasis">
+              <svg class="bi pe-none me-2" width="16" height="16">
+                <use xlink:href="#table"></use>
+              </svg>
+              <img src="./img_soruces/trend.png" class="sideiocns" height="24px" alt="">
+              <span>Trending StartUps</span>
+            </a>
+          </li>
+  
+          <li>
+            <a href="./loading.html" class="nav-link link-body-emphasis">
+              <svg class="bi pe-none me-2" width="16" height="16">
+                <use xlink:href="#people-circle"></use>
+              </svg>
+              <img src="./img_soruces/settings.svg" height="24px" class="sideicons" alt="">
+              <span>Settings</span>
+            </a>
+          </li>
+        </ul>
+        <hr>
+  
+      </div>
+      <div class="middle">
+        <div class="inside">
+            <div class="activity">
+                <p id="activity-heading">IEEE - IIT Bombay</p>
+                <a href="https://portal.ieeeyesist12.org/aeceg"><button class="btn btn-primary rounded-pill mx-3
+                 type="button">Register now</button></a>
+                <hr>
+                <p id="matter">YESISIT12</p>
+                <p id="contact">contact info : XXXXXXX672
+                </p>
+                      </div>
+        </div>
+      </div>
+    
+</body>
+</html>

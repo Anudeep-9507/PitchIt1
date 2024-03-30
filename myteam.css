@@ -1,0 +1,282 @@
+.heading{
+    height: 80px;
+      background-color:white;
+      width: 100vw;
+      border: 1px solid rgba(122, 122, 122, 0.073);
+      display: flex;
+      align-items: center;
+     justify-content: center;
+     position: fixed;
+     z-index: 999;
+     top:0;
+    
+  }
+  .headtxt:hover{
+    font-weight: 500;
+    transition: 0.1s;
+}
+  #mainlogo{
+  
+    font-weight: bold;
+    color:#3889c3;
+    position: relative;
+    margin-right: 80px;
+   
+ }
+ .PitchIt_logo{
+  padding: 1px;
+  margin-right: 30px;
+  border: 1px solid rgb(20, 114, 196);
+  border-radius: 75px;
+  filter: drop-shadow(10px 3px 3px rgba(77, 108, 170, 0.39));
+}
+ .nav-pills{
+    padding-top: 10px;
+  }
+  .form button {
+    border: none;
+    background: none;
+    color: #8b8ba7;
+  }
+  /* styling of whole input container */
+  .form {
+    --timing: 0.3s;
+    --width-of-input: 200px;
+    --height-of-input: 40px;
+    --border-height: 2px;
+    --input-bg: #fff;
+    --border-color: #2f2ee9;
+    --border-radius: 30px;
+    --after-border-radius: 1px;
+    position: relative;
+    width: var(--width-of-input);
+    height: var(--height-of-input);
+    display: flex;
+    align-items: center;
+    padding-inline: 0.8em;
+    border-radius: var(--border-radius);
+    transition: border-radius 0.5s ease;
+    background: var(--input-bg,#fff);
+    margin-right: 50px;
+    border: 1px solid rgba(128, 128, 128, 0.32);
+  }
+  /* styling of Input */
+  .input {
+    font-size: 0.9rem;
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    padding-inline: 0.5em;
+    padding-block: 0.7em;
+    border: none;
+  }
+  /* styling of animated border */
+  .form:before {
+    content: "";
+    position: absolute;
+    background: var(--border-color);
+    transform: scaleX(0);
+    transform-origin: center;
+    width: 100%;
+    height: var(--border-height);
+    left: 0;
+    bottom: 0;
+    border-radius: 1px;
+    transition: transform var(--timing) ease;
+  }
+  /* Hover on Input */
+  .form:focus-within {
+    border-radius: var(--after-border-radius);
+  }
+  
+  input:focus {
+    outline: none;
+  }
+  /* here is code of animated border */
+  .form:focus-within:before {
+    transform: scale(1);
+  }
+  /* styling of close button */
+  /* == you can click the close button to remove text == */
+  .reset {
+    border: none;
+    background: none;
+    opacity: 0;
+    visibility: hidden;
+  }
+  /* close button shown when typing */
+  input:not(:placeholder-shown) ~ .reset {
+    opacity: 1;
+    visibility: visible;
+  }
+  /* sizing svg icons */
+  .form svg {
+    width: 17px;
+    margin-top: 0px;
+  }
+
+
+  .sideicons{
+    margin-right: 10px;
+    margin-left: 30px;
+}
+.sidebar{
+  margin-top: 90px;
+  margin-left: 80px;
+  border-radius: 15px;
+  border: 1px solid rgba(128, 128, 128, 0.285);
+  position: fixed;
+  top:0;
+  z-index: 900;
+}
+.mentoricon{
+  margin-left: 50px;
+margin-right: 5px;
+}
+.collabicon{
+  margin-left: 50px;
+}
+span{
+  /* font-weight: 500; */
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+  .homelogo{
+    margin-right: 10px;
+  }
+.contain{
+
+    background-color: rgb(249, 249, 249);
+    width: 900px;
+    height: 1500px;
+    margin-left:430px;
+    margin-top: 90px;
+     }
+    .upper{
+       display: flex;
+       
+       align-items: center;
+       position: relative;
+      
+    }
+    .pen1{
+       position: absolute; 
+       margin-top: 150px;
+       margin-left:175px
+       }
+        .pen2{
+            position: absolute; 
+            margin-top:400px;
+            margin-left:445px
+       }
+    .banner{
+        width: 100%;
+        height: 230px;
+        border: 1px solid white;
+        border-radius: 10px;
+    }
+    .logo{
+        border-radius: 50%;
+        height: 140px;
+        width: 140px;
+        border: 5px solid rgb(255, 255, 255);
+        position: absolute;
+        margin-top: 60px;
+        margin-left: 70px
+        }
+        #tag{
+          color:grey;
+          font-size: 15px;
+          padding-left: 40px;
+          padding-top: 15px;
+        }
+        .teamdropdown{
+            width: 500px;
+           margin-left: 40px;
+            
+        }
+        .teamdropdown li{
+            font-weight:bold
+        }
+        #member{
+            height: 70px;
+            border-radius: 50%;
+            border: 5px solid rgb(79, 160, 215);
+            margin-right: 15px;
+        }
+        #memberPosition{
+            font-weight: 700;
+            font-size: 20px;
+        }
+        #name{
+            color: grey;
+            font-size:17px;
+           margin-left: 100px;
+           
+        }
+        #member1{
+            height: 70px;
+            width: 70px;
+            border-radius: 50%;
+            border: 5px solid rgb(65, 215, 120);
+            margin-right: 15px;
+            object-fit: cover;
+        }
+        #memberPosition1{
+            font-weight: 600;
+            font-size: 20px;
+        }
+        #member2{
+            height: 70px;
+            width: 70px;
+            border-radius: 50%;
+            border: 5px solid rgba(106, 93, 224, 0.689);
+            margin-right: 15px;
+            object-fit: cover;
+        }
+        .card{
+            position: relative;
+        }
+        .profileadd-bg{
+          width: 95%;
+          background-color: white;
+          display: flex;
+          justify-content: center;
+          border-radius: 20px;
+          height: 170px;      
+        align-items: center;
+      border:2px solid rgba(128, 128, 128, 0.283);
+      margin: auto;
+      margin-top: 30px;
+    }
+        .profileadd{
+          width: 400px;
+          height: 100px;
+        }
+        .activity{
+          width: 95%;
+          background-color: white;
+          border-radius: 20px;
+          height: 250px;   
+      border:2px solid rgba(128, 128, 128, 0.283);
+      margin: auto;
+      margin-top: 30px;
+           }
+          
+           #activity-heading{
+          margin-top: 10px;
+          margin-left: 20px;
+          font-weight: 400;
+          font-size: 1.5rem;
+           }
+           #matter{
+            padding-left: 20px;
+           }
+
+        .down{
+          display: flex;
+          
+        }
+   
